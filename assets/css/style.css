@@ -32,8 +32,41 @@ p {
     font-size: 14px;
 }
 
+.bath {
+    margin:auto;
+    vertical-align:center;
+}
+
+.button-nums:hover, .next:hover, .previous:hover {
+    background-color:white;
+    border:1px solid grey;
+    color:black;
+
+}
+
+.button-nums, .next, .previous {
+    background-color:black;
+    border:1px solid grey;
+    border-radius:2px;
+    color:white;
+    margin:3px;
+}
+
+.button-nums {
+    width:35px;
+}
+
+.carousel-buttons {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
 .mySlides {
     width: 40%;
+    margin-bottom: 15px;
 }
 
 .main-section {
@@ -42,6 +75,22 @@ p {
 
 .col-md-4 > .panel-default {
     margin-bottom: 75px;
+}
+
+.display-btns:hover {
+    background-color:black;
+    color:white;
+}
+
+.display-btns {
+    width: 45%;
+    height: 100px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
 }
 
 .footer {
@@ -102,6 +151,25 @@ p {
     margin-right:10px;
 }
 
+#bath-buttons {
+    text-align:center;
+}
+
+#bathroom, #entry, #kitchen, #other {
+    text-align: center;
+    margin: auto;
+}
+
+#bath-pics, #entry-pics, #kitchen-pics, #other-pics {
+    display:block;
+    margin:auto;
+}
+
 #phone {
     text-decoration: underline;
+}
+
+#top, #bottom {
+    text-align:center;
+    margin:10px 0;
 }
