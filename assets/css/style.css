@@ -161,8 +161,9 @@ p {
 }
 
 #bath-pics, #entry-pics, #kitchen-pics, #other-pics {
-    display:block;
-    margin:auto;
+/*    display:block;
+    margin:auto;*/
+    text-align:center;
 }
 
 #phone {
