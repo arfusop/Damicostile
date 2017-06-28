@@ -67,6 +67,7 @@ p {
 .mySlides {
     width: 40%;
     margin-bottom: 15px;
+    margin:auto;
 }
 
 .main-section {
